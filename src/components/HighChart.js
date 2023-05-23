@@ -37,6 +37,7 @@ export default function HighChart (){
   const ma24Gap = candleArr.length - ma24Arr.length;
   const ma60Gap = candleArr.length - ma60Arr.length;
   const ma120Gap = candleArr.length - ma120Arr.length;
+  
 
   ma3Arr = chartFunc.fillShortDateForMa(ma3Gap, candleArr, ma3Arr);
   ma24Arr = chartFunc.fillShortDateForMa(ma24Gap, candleArr, ma24Arr);
